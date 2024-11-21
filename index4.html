@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي المتكامل</title>
+    <link rel="stylesheet" href="styles4.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- النافبار -->
+    <header class="navbar">
+        <div class="navbar">
+            <div class="logo">MyWebsite</div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        
+    </header>
+
+    <!-- الصفحة الرئيسية -->
+    <section id="home" class="hero">
+        <h1>مرحبًا بكم في موقعي</h1>
+        <p>نقدم لكم أفضل الخدمات والمعلومات</p>
+    </section>
+
+    <!-- من نحن -->
+    <section id="about" class="about">
+        <h2>من نحن</h2>
+        <p>نحن فريق محترف متخصص في تصميم المواقع الإلكترونية، هدفنا تقديم تجربة مثالية للمستخدمين.</p>
+        <img src="https://via.placeholder.com/600x300" alt="صورة عن فريقنا">
+    </section>
+
+    <!-- نموذج تعبئة البيانات -->
+    <section id="form" class="form-section">
+        <h2>نموذج تعبئة بيانات</h2>
+        <form action="#" method="post">
+            <label for="name">الاسم:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">الرسالة:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+
+    <!-- جدول -->
+    <section class="table-section">
+        <h2>جدول البيانات</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>الاسم</th>
+                    <th>البريد الإلكتروني</th>
+                    <th>الرسالة</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>أحمد</td>
+                    <td>ahmed@example.com</td>
+                    <td>مرحبًا!</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>سارة</td>
+                    <td>sarah@example.com</td>
+                    <td>شكرًا لكم!</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- فيديو -->
+    <section class="video-section">
+        <h2>فيديو توضيحي</h2>
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+            المتصفح الخاص بك لا يدعم تشغيل الفيديو.
+        </video>
+    </section>
+
+    <!-- خريطة -->
+    <section class="map-section">
+        <h2>موقعنا على الخريطة</h2>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434508929!2d144.9631579153179!3d-37.81410797975132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5777dd446c6e616!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1615461698123!5m2!1sen!2sau"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <!-- معلومات الاتصال -->
+    <footer id="contact" class="contact">
+        <h2>اتصل بنا</h2>
+        <p>البريد الإلكتروني: contact@website.com</p>
+        <p>الهاتف: +123 456 7890</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
